@@ -1,4 +1,4 @@
-## Run cron job per hour in local
+## Run cron job in local
 1. Update your FTX key pair in local/.env
 2. Run below script
 ```

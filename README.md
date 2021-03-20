@@ -11,4 +11,4 @@ node app.js
 1. Follow below webpage to create Cloud function and cloud Scheduler job
 https://cloud.google.com/scheduler/docs/tut-pub-sub
 2. Copy GCP/index.js to Cloud Function
-3. Set yout FTX key pair to runtime environment variables of your Cloud function (FTX_API_KEY & FTX_API_SECRET)
+3. Set yout FTX key pair to runtime environment variables of Cloud function (FTX_API_KEY & FTX_API_SECRET)

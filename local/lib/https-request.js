@@ -49,7 +49,7 @@ class FtxApiRequest {
                 let resp = '';
 
                 res.on("data", data => {
-                  resp = data.toString();
+                  resp += data.toString();
                 });
                 res.on('end', () => {
                     console.log(resp);

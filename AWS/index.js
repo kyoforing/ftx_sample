@@ -2,7 +2,7 @@ const { getLendableMoney, updateLendableMoney } = require('./ftx-request');
 
 exports.handler = async () => {
     const currencies = process.env.CURRENCY || '';
-    const minRate = '0.00000571';
+    const minRate = parseInt(process.env.RATE) / (365 * 24 * 100);
     const lendingInfo = await getLendableMoney();
 
     for (let currency of currencies.split(',')) {

@@ -24,6 +24,6 @@ https://cloud.google.com/scheduler/docs/tut-pub-sub
 2. Compress ```ftx-request.js```, ```https-request.js``` and ```index.js``` to a zip file named ```lambda_function_payload.zip```
 3. Copy lambda_function_payload.zip to terraform folder
 4. Modify your FTX API key(variable.ftx_api_key)/secret(variable.ftx_api_secret) in ```main.tf``` 
-5. Run command ```terrafrom init``` to install terrafrom provider
-6. Run command ```terrafrom apply``` to deploy FTX funding stake
+5. Run command ```terraform init``` to install terrafrom provider
+6. Run command ```terraform apply``` to deploy FTX funding stake
 7. Your FTX funding stake will deployed in AWS N.Virginia (us-east-1) region
